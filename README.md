@@ -2,6 +2,8 @@
 
 > The missing list of all RapidAPI collections for easy access
 
+https://rapidapi-collections.netlify.app
+
 In case it needs to be updated (not automated yet):
 
 1. Use `console.js` first.
