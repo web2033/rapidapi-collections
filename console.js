@@ -1,11 +1,9 @@
-// go to https://rapidapi.com/collection/recommended-apis and run this whole code in the console:
+// go to https://rapidapi.com/collection/recommended-apis and run this snippet in the console:
 
 // 1. Parse
 let links = [...document.querySelectorAll('div.scrolling.menu.transition a')]
-let collection = links.filter((link) =>
-  link.pathname.startsWith('/collection/')
-)
-let data = collection.map((link) => {
+let collection = links.filter(link => link.pathname.startsWith('/collection/'))
+let data = collection.map(link => {
   return { href: link.href, text: link.text }
 })
 
