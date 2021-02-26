@@ -1414,5 +1414,33 @@
   {
     "href": "https://rapidapi.com/collection/edmunds-api",
     "text": "Edmunds APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/crunchyroll-api",
+    "text": "Crunchyroll APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/cargurus-api",
+    "text": "CarGurus APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/truecar-api",
+    "text": "TrueCar APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/webull-api",
+    "text": "Webull APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/google-position-checker-api",
+    "text": "Google Position Checker APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/shodan-api",
+    "text": "Shodan APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/sofi-api",
+    "text": "SoFi APIs"
   }
 ]
