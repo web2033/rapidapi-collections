@@ -1442,5 +1442,149 @@
   {
     "href": "https://rapidapi.com/collection/sofi-api",
     "text": "SoFi APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/ms-graph-api",
+    "text": "MS Graph APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/grubhub-api",
+    "text": "GrubHub APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/doordash-api",
+    "text": "DoorDash APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/postmates-api",
+    "text": "Postmates APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/shazam-api",
+    "text": "Shazam APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/soundcloud-api",
+    "text": "SoundCloud APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/uber-api",
+    "text": "Uber APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/lastfm-api",
+    "text": "LastFm APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/signal-api",
+    "text": "Signal APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/nba-api",
+    "text": "NBA APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/bing-news-api",
+    "text": "Bing News APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/ecosia-api",
+    "text": "Ecosia APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/duckduckgo-api",
+    "text": "DuckDuckGo APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/restaurant-api",
+    "text": "Restaurant APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/zomato-api",
+    "text": "Zomato APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/bank-api",
+    "text": "Bank APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/skyscanner-api",
+    "text": "Skyscanner APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/mortgage-api",
+    "text": "Mortgage APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/twilio-api",
+    "text": "Twilio APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/reddit-api",
+    "text": "Reddit APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/alpha-vantage-api",
+    "text": "Alpha Vantage APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/apple-api",
+    "text": "Apple APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/lyft-api",
+    "text": "Lyft APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/subsmax-api",
+    "text": "Subsmax APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/dogecoin-price-api",
+    "text": "Dogecoin Price APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/world-trading-data-api",
+    "text": "World Trading Data APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/coindesk-api",
+    "text": "CoinDesk APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/redfin-api",
+    "text": "RedFin APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/bet365-api",
+    "text": "Bet365 APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/animal-crossing-api",
+    "text": "Animal Crossing APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/coinbase-pro-api",
+    "text": "Coinbase Pro APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/etrade-api",
+    "text": "Etrade APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/travel-api",
+    "text": "Travel APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/ebay-api",
+    "text": "Ebay APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/bitcoin-api",
+    "text": "Bitcoin APIs"
+  },
+  {
+    "href": "https://rapidapi.com/collection/airbnb-api",
+    "text": "Airbnb APIs"
   }
 ]
