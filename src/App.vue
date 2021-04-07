@@ -1,24 +1,26 @@
 <script>
-import { computed, ref } from 'vue'
-import data from '../data.json'
+import FBdata from './firebase.js'
 
 export default {
-  setup() {
-    const checked = ref(false)
-    const originalData = [...data]
-    const sortedData = data.sort((a, b) => a.text.localeCompare(b.text))
-
-    const links = computed(() => {
-      return checked.value ? sortedData : originalData
-    })
-
-    return { links, checked }
+  data() {
+    return { checked: false, originalData: [] }
+  },
+  async created() {
+    this.originalData = await FBdata
+  },
+  computed: {
+    links() {
+      return this.checked ? this.sortedData : this.originalData
+    },
+    sortedData() {
+      return this.originalData.sort((a, b) => a.text.localeCompare(b.text))
+    },
   },
 }
 </script>
 
 <template>
-  <section class="max-w-5xl p-4 mx-auto">
+  <section class="max-w-5xl p-4 mx-auto" v-if="originalData.length">
     <h1 class="mb-4 text-5xl font-black text-center text-gray-900">
       List of RapidAPI collections ({{ links.length }})
     </h1>
