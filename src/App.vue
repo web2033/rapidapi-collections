@@ -13,7 +13,7 @@ export default {
       return this.checked ? this.sortedData : this.originalData
     },
     sortedData() {
-      return this.originalData.sort((a, b) => a.text.localeCompare(b.text))
+      return [...this.originalData].sort((a, b) => a.text.localeCompare(b.text))
     },
   },
 }
