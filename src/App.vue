@@ -3,17 +3,34 @@ import FBdata from './firebase.js'
 
 export default {
   data() {
-    return { checked: false, originalData: [] }
+    return { checked: false, originalData: [], search: '' }
   },
   async created() {
     this.originalData = await FBdata
   },
   computed: {
     links() {
-      return this.checked ? this.sortedData : this.originalData
+      let copy = [...this.originalData]
+      copy = this.sortData(copy)
+      copy = this.filterData(copy)
+      return copy
     },
-    sortedData() {
-      return [...this.originalData].sort((a, b) => a.text.localeCompare(b.text))
+    searchTerm() {
+      return this.search.toLowerCase()
+    },
+  },
+  methods: {
+    sortData(arr) {
+      if (this.checked) {
+        return arr.sort((a, b) => a.text.localeCompare(b.text))
+      } else return arr
+    },
+    filterData(arr) {
+      if (this.searchTerm) {
+        return arr.filter(item =>
+          item.text.toLowerCase().includes(this.searchTerm)
+        )
+      } else return arr
     },
   },
 }
@@ -47,6 +64,17 @@ export default {
             >Sort alphabetically</span
           >
         </span>
+        <div class="ml-3">
+          <label for="search" class="sr-only">Search</label>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            class="block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            placeholder="Search..."
+            v-model.trim="search"
+          />
+        </div>
       </div>
       <!-- list -->
       <ul class="grid grid-cols-1 gap-4 mx-auto mb-4 sm:grid-cols-3">
